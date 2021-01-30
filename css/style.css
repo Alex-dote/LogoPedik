@@ -1151,7 +1151,7 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 105px;
+  padding-top: 205px;
   height: 100%;
 }
 
@@ -1243,6 +1243,8 @@ body.ie ._ibg img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
 }
 
 .pluses {
@@ -1527,6 +1529,7 @@ body.ie ._ibg img {
   overflow: hidden;
   width: 80px;
   height: 80px;
+  margin-right: 15px;
 }
 
 .reviews__avatar img {
@@ -1544,6 +1547,13 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .reviews__rating {
