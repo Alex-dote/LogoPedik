@@ -1145,6 +1145,7 @@ body.ie ._ibg img {
 .fullscreen__container {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 .fullscreen__row {
